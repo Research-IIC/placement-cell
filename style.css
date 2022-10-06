@@ -292,19 +292,19 @@ blockquote p {
 .logo {
   display: block;
   float: left;
-  width: 104px;
-  height: 46px;
+  width: 100px;
+  height: 90px;
   text-indent: -9999px;
-  background: url(images/team/logo.jpg) no-repeat;
+  /* background: url(images/team/logo.jpg) no-repeat; */
   background-size: 104px 46px;
 }
 
-.logo:hover, .logo:focus {
+/* .logo:hover, .logo:focus {
   -webkit-animation: rubberBand 0.5s 1;
      -moz-animation: rubberBand 0.5s 1;
        -o-animation: rubberBand 0.5s 1;
-          animation: rubberBand 0.5s 1;
-}
+          animation: rubberBand 0.5s 1; 
+}*/
 
 .header-default {
   background: #0d0d0e;
@@ -320,6 +320,8 @@ blockquote p {
 
 .header-home .navigation a {
   color: #fff;
+  font-weight: bold;
+  font-size:medium ;
 }
 
 .top-slider {
@@ -699,7 +701,7 @@ blockquote p {
   margin: 5px;
   padding: 31px 0;
 }
-
+color
 .cl-logo-carousel .item figure img {
   display: block;
   width: 70%;
